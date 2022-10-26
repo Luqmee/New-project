@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing:  1px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 8px 15px;
+    background-color: white;
+    border-radius: 35px;
+}
+nav ul li a:hover{
+    background-color: transparent;
+    color: white;
+    transition: .6s;
+}
+.btn{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius:35px ;
+    background-color: red;
+    font-weight: bold;
+    border-style: none;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translatey(-50%);
+}
+h1{
+    font-size: 75px;
+    color: white;
+}
+h4{
+    color: gray;
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+h3{
+    color: white;
+    font-size: 35px;
+    padding: 20px 0px;
+    letter-spacing: 2px;
+}
+.content p{
+    color: grey;
+    padding: 15px 0px;
+    font-size: 20px;
+
+}
+.list form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 25px;
+}
+.list form input:first-child{
+    width: 100%;
+    padding: 14px 130px 15px 14px;
+    border: 1px solid white;
+    border-radius: 35px;
+    outline: none;
+}
+.list form input:last-child{
+    position: absolute;
+    display: inline-block;
+    top: 5px;
+    right: 6px;
+    padding: 10px 14px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 35px;
+}
+.list form input:last-child:hover{
+    background-color: transparent;
+    transition: .5s;
+    border: 1px solid red;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 21, 21);
+
+}
+.about h1{
+    font-size: 65px;
+    padding-top: 15px;
+    text-align: center;
+}
+.about .para{
+    margin-top: 35px;
+    margin-left: 140px;
+    height: 580px;
+    width: 520px;
+    background-color: gray;
+    opacity: 0.2;
+    box-shadow: 3px 3px 1px 3px black;
+    border-radius: 35px;
+    float: left;
+}
+.about .para p{
+    color: white;
+    padding: 50px 40px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.about .right{
+position: relative;
+left: 10%;
+top: 15px;
+}
+.about .right img{
+    border-radius: 35px;   
+}
+
+.f-card{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 21, 21);
+    display: flex;
+    justify-content: center;
+}
+.f-card h1{
+    padding-top: 25px;
+    font-size: 55px;
+    position: absolute;
+    align-items: center;  
+}
+.card{
+    margin: 30px;
+    width: 340px;
+    height: 550px;
+    margin-top: 120px;
+    color: white;
+    border: 1px solid white;
+}
+.card h2{
+    text-align: center;
+    font-size: 35px;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    padding: 20px;
+    font-size: 25px;
+}
+.footer{
+    height: 45vh;
+    width: 100%;
+    background-color: red;
+}
+.footer h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+}
+.footer .cnt{
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-between;
+    padding: 60px 180px;
+}
+.footer .ctn2 h3{
+    color: black;
+}
+.footer .icons{
+    color: white;
+    padding-top: 55px;
+}
+.footer .icons i{
+    padding: 25px 35px;
+    font-size: 30px;
+}
+    
+
+
+
